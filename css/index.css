@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfloat{ *zoom:1; }
+.clearfloat:after{ content:""; clear:both; display:block;}
+
+body,ul,p,span,ol,li,dl,dt,dd{ margin:0px; padding:0px;}
+li{ list-style:none; }
+a{ text-decoration:none; display:inline-block; }
+h1,h2,h3,h4,h5,h6{ margin:0px; padding:0px; font-weight:normal;}
+
+.head{ width:1000px; margin:0 auto; padding-top:10px; }
+
+.log{ float:left; height:60px; }
+.log img{ vertical-align:middle; }
+.log span{ display:inline-block; margin-left:15px; font-size:18px; line-height:60px; height:60px; color:#333; vertical-align:middle; }
+
+.head_right{ float:right; text-align:right; padding-top:20px;}
+.time_and_language span,.time_and_language span a{ font-size:12px; color:#888; line-height:22px; }
+.head_nav li{ float:left; font-size:12px; color:#ccc; }
+.head_nav li a{ color:#666; line-height:24px; height:24px; padding:0 12px; }
+
+.nav{ height:46px; width:100%; background:#005db0; margin-top:14px; }
+.nav ul{ width:1000px; margin:0 auto;}
+.nav li{ float:left; border-right:1px solid #1c6db5;}
+.nav .li_first{ border-left:1px solid #1c6db5; }
+.nav li a{ color:#fff; font:16px/46px "微软雅黑"; height:46px; padding:0 25px; }
+.nav li a:hover{ background:#00498b; }
+
+.banner{ position:relative; background:url(../image/banner.gif) no-repeat center center; height:394px; }
+.dot{ position:absolute; left:50%; bottom:10px; margin-left:-25px; }
+.dot span{ background:url(../image/dot01.png) no-repeat center center; margin-right:10px; display:inline-block; width:10px; height:10px; font-size:0px; line-height:0px;}
+.dot span:hover{ background:url(../image/dot02.png) no-repeat center center;}
+
+.body{ width:1000px; margin:0 auto; padding-top:17px; }
+.laws,.ourClient,.consult,.inquiry{ float:left; width:630px; border-right:1px dashed #ddd; padding-right:20px; }
+.body h3{ padding-left:32px; }
+.body h3,.body h3 a{ font:16px/46px "微软雅黑"; color:#555; height:46px; border-bottom:1px solid #ddd; }
+.body h3 a:hover{ text-decoration:underline; }
+.laws h3{ background:url(../image/titbg01.jpg) no-repeat left center; }
+.callUs h3{ background:url(../image/titbg02.jpg) no-repeat left center; }
+.laws ol{ background:url(../image/ol_bg.jpg) no-repeat left 15px; padding-top:6px; }
+.laws li{ padding-left:26px; }
+.laws li a{ color:#666; font:14px/34px "微软雅黑"; }
+.laws li span{ float:right; color:#666; font:12px/34px "宋体";}
+.callUs{ float:right; width:330px; }
+.address{ font:12px/34px "微软雅黑"; color:#666; background:url(../image/call.jpg) no-repeat;}
+.address span{ font-size:16px; font-weight:bold;}
+
+.foot{ width:100%; text-align:center; background:#efefef; color:#888; font:12px/60px "微软雅黑"; height:60px; }
+.foot img{ vertical-align:middle; margin:0 5px 0 8px;}
